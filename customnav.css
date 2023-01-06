@@ -1,0 +1,13 @@
+#customnav {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+#customnav li {
+ padding: 1px 20px;
+}
+#customnav a {
+ color: #fff;
+ letter-spacing: 2px;
+ font-weight: bold;
+}
