@@ -15,6 +15,14 @@
  padding: 1px 20px;
 }
 
+#stripe1 {background:linear-gradient(.25turn, #D52D00, 90%, transparent);}
+#stripe2 {background:linear-gradient(.25turn, #EF7627, 80%, transparent);}
+#stripe3 {background:linear-gradient(.25turn, #FF9A56, 70%, transparent);}
+#stripe4 {background:linear-gradient(.25turn, #FFFFFF, 60%, transparent);}
+#stripe5 {background:linear-gradient(.25turn, #D162A4, 70%, transparent);}
+#stripe6 {background:linear-gradient(.25turn, #B55690, 80%, transparent);}
+#stripe7 {background:linear-gradient(.25turn, #A30262, 90%, transparent);}
+
 #customnav a {
  color: #fff;
  letter-spacing: 2px;
