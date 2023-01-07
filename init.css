@@ -1,20 +1,32 @@
 body { 
  background: initial !important;
 }
+
 #contentholder, #cattery_descbox {
  display: contents;
 }
+
 #titletxt, #titleimg, #topbanneri, #topbanner, #menu_holder, #bodyi, #layoutuinfo, #gametime, #link_home, .titlebar {
  display: none;
 }
+
 #cattery_infobox {
  display: none;
 }
+
 div:has(> #reportplayer) {
  display: none;
 }
+
 #content {
  width: 100%;
  position: initial;
  padding: 0;
+}
+
+#messagereport {
+ cursor: pointer;
+ position: fixed;
+ top: 5px;
+ right: 5px;
 }
