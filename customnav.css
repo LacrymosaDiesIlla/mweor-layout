@@ -1,13 +1,43 @@
+#customnav, #customheader h1, #customheader figure {
+ display: inline-block;
+ margin: 0;
+ vertical-align: middle;
+}
+
 #customnav {
+ width: 20%;
  list-style-type: none;
  padding: 0;
  margin: 0;
 }
+
 #customnav li {
  padding: 1px 20px;
 }
+
 #customnav a {
  color: #fff;
  letter-spacing: 2px;
  font-weight: bold;
+}
+
+#customheader h1 {
+ width: 70%;
+ color: #D52D00;
+ font-family: serif;
+ font-variant: small-caps;
+ font-size: 36px;
+ letter-spacing: .2em;
+ text-align: center;
+}
+
+figure {
+ width: 7%;
+ text-align: center;
+ color: #D52D00;
+}
+
+#avatarimg {
+ width: 75px;
+ border-radius: 50%;
 }
