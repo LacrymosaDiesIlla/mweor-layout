@@ -61,13 +61,13 @@ img[src="/images/layout_green/event.png"] {
  padding: 5px 20px;
 }
 
-#stripe1 {background:linear-gradient(.25turn, #D52D00, 80%, transparent);}
-#stripe2 {background:linear-gradient(.25turn, #EF7627, 80%, transparent);}
-#stripe3 {background:linear-gradient(.25turn, #FF9A56, 80%, transparent);}
-#stripe4 {background:linear-gradient(.25turn, #FFFFFF, 80%, transparent);}
-#stripe5 {background:linear-gradient(.25turn, #D162A4, 80%, transparent);}
-#stripe6 {background:linear-gradient(.25turn, #B55690, 80%, transparent);}
-#stripe7 {background:linear-gradient(.25turn, #A30262, 80%, transparent);}
+#stripe1 {background-color: #D52D00;}
+#stripe2 {background-color: #EF7627;}
+#stripe3 {background-color: #FF9A56;}
+#stripe4 {background-color: #FFFFFF;}
+#stripe5 {background-color: #D162A4;}
+#stripe6 {background-color: #B55690;}
+#stripe7 {background-color: #A30262;}
 
 #customnav a {
  color: #fff;
@@ -245,4 +245,11 @@ i {display:none;}
 		margin: 0;
  		vertical-align: middle;
 	}
+	#stripe1 {background:linear-gradient(.25turn, #D52D00, 80%, transparent);}
+	#stripe2 {background:linear-gradient(.25turn, #EF7627, 80%, transparent);}
+	#stripe3 {background:linear-gradient(.25turn, #FF9A56, 80%, transparent);}
+	#stripe4 {background:linear-gradient(.25turn, #FFFFFF, 80%, transparent);}
+	#stripe5 {background:linear-gradient(.25turn, #D162A4, 80%, transparent);}
+	#stripe6 {background:linear-gradient(.25turn, #B55690, 80%, transparent);}
+	#stripe7 {background:linear-gradient(.25turn, #A30262, 80%, transparent);}
 }
