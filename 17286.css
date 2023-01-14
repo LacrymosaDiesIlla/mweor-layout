@@ -43,13 +43,6 @@ img[src="/images/layout_green/event.png"] {
  border: solid 1px #000;
 }
 
-#messagereport {
- cursor: pointer;
- position: fixed;
- top: 5px;
- right: 5px;
-}
-
 #customnav {
  list-style-type: none;
  padding: 0;
@@ -239,14 +232,17 @@ i {display:none;}
 }
 
 @media only screen and (min-width: 768px) {
+	
 	#customnav, #customheader h1, #customheader figure {
 		display: inline-block;
 		margin: 0;
  		vertical-align: middle;
 	}
+	
 	#customnav {
 		width: 20%;
 	}
+	
 	#stripe1 {background:linear-gradient(.25turn, #D52D00, 80%, transparent);}
 	#stripe2 {background:linear-gradient(.25turn, #EF7627, 80%, transparent);}
 	#stripe3 {background:linear-gradient(.25turn, #FF9A56, 80%, transparent);}
@@ -254,4 +250,11 @@ i {display:none;}
 	#stripe5 {background:linear-gradient(.25turn, #D162A4, 80%, transparent);}
 	#stripe6 {background:linear-gradient(.25turn, #B55690, 80%, transparent);}
 	#stripe7 {background:linear-gradient(.25turn, #A30262, 80%, transparent);}
+	
+	#messagereport {
+ 		cursor: pointer;
+ 		position: fixed;
+ 		top: 5px;
+ 		right: 5px;
+	}
 }
