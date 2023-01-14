@@ -33,3 +33,31 @@ img[src="/images/layout_green/event.png"] {
 .ui-tooltip {
   background-color: #fff !important;
 }
+.ui-widget-header {
+ background: linear-gradient(#EF7627, #fff, #B55690);
+}
+.ui-state-default a {
+ color: #fff !important;
+ font-weight: bold;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+ background: rgba(255, 154, 86, .5);
+ border-color: #D52D00;
+ text-shadow: -1px 0 #A30262, 0 1px #A30262, 1px 0 #A30262, 0 -1px #A30262;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover {
+ background: #D52D00;
+}
+.ui-state-active a {
+ color: #A30262!important;
+ text-shadow: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+ background: #fff url('');
+}
+.page_number {
+ color: #fff !important;
+}
+.page_number + .ui-state-default {
+ background: linear-gradient(#EF7627, #fff, #B55690) !important;
+}
