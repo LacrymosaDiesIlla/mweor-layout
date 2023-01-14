@@ -1,0 +1,14 @@
+.button {
+  background: linear-gradient(#EF7627, #fff, #B55690);
+  border-color: #A30262;
+  color: #fff;
+  text-shadow: -1px 0 #A30262, 0 1px #A30262, 1px 0 #A30262, 0 -1px #A30262;
+  padding: 2px 10px;
+}
+.button:hover {
+  color: #B55690;
+  border-color: inherit;
+}
+.ui-tooltip {
+  background-color: #fff !important;
+}
