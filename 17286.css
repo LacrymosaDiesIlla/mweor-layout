@@ -1,0 +1,247 @@
+
+body { 
+ background: initial !important;
+}
+
+#contentholder, #cattery_descbox {
+ display: contents;
+}
+
+#titletxt, #titleimg, #topbanneri, #topbanner, #menu_holder, #bodyi, #layoutuinfo, #gametime, #link_home, .titlebar {
+ display: none;
+}
+
+div:has(> .breed_count), .clearer, .titlebar + div, #cattery_descbox + .spacer {
+ display: none;
+}
+
+#cattery_infobox {
+ display: none;
+}
+
+div:has(> #reportplayer) {
+ display: none;
+}
+
+#content {
+ width: 100%;
+ position: initial;
+ padding: 0;
+}
+
+div:has(> #eventtxt) {
+ position: initial !important;
+ width: 550px;
+ margin: auto;
+}
+
+img[src="/images/layout_green/event.png"] {
+ filter: hue-rotate(2000deg);
+}
+
+#eventtxt {
+ background-color: #fff;
+ border: solid 1px #000;
+}
+
+#messagereport {
+ cursor: pointer;
+ position: fixed;
+ top: 5px;
+ right: 5px;
+}
+
+#customnav, #customheader h1, #customheader figure {
+ display: inline-block;
+ margin: 0;
+ vertical-align: middle;
+}
+
+#customnav {
+ width: 20%;
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+#customnav li {
+ padding: 5px 20px;
+}
+
+#stripe1 {background:linear-gradient(.25turn, #D52D00, 80%, transparent);}
+#stripe2 {background:linear-gradient(.25turn, #EF7627, 80%, transparent);}
+#stripe3 {background:linear-gradient(.25turn, #FF9A56, 80%, transparent);}
+#stripe4 {background:linear-gradient(.25turn, #FFFFFF, 80%, transparent);}
+#stripe5 {background:linear-gradient(.25turn, #D162A4, 80%, transparent);}
+#stripe6 {background:linear-gradient(.25turn, #B55690, 80%, transparent);}
+#stripe7 {background:linear-gradient(.25turn, #A30262, 80%, transparent);}
+
+#customnav a {
+ color: #fff;
+ letter-spacing: 2px;
+ font-weight: bold;
+ font-size: 14px;
+ text-shadow: -1px 0 #A30262, 0 1px #A30262, 1px 0 #A30262, 0 -1px #A30262;
+}
+
+#customheader h1 {
+ width: 70%;
+ color: #D52D00;
+ font-family: serif;
+ font-variant: small-caps;
+ font-size: 36px;
+ letter-spacing: .2em;
+ text-align: center;
+}
+
+#customheader figure {
+ width: 7%;
+ text-align: center;
+ color: #D52D00;
+}
+
+#avatarimg {
+ width: 100px;
+ border-radius: 50%;
+}
+
+#customheader {
+ margin-bottom: 30px;
+}
+
+#leftbox {
+ width: 35%;
+ float: left;
+ margin-left: 20px;
+}
+
+#leftcontent {
+ padding: 5px 10px;
+}
+
+#leftbox h2 {
+ color: #A30262;
+ font-family: serif;
+ font-size: 28px;
+ letter-spacing: .1em;
+ margin-left: 40px;
+ padding-bottom: 5px;
+ border-bottom: 1px solid #A30262;
+}
+
+#leftbox a {
+ font-weight: bold;
+ color: #A30262;
+}
+
+#leftbox a:hover {
+ color: #D162A4;
+}
+
+#fandom {
+ width: 40%;
+ display: inline-block;
+}
+
+#leftbox figure {
+ width: 40%;
+ display: inline-block;
+ font-size: 10px;
+ text-align: center;
+ float: right;
+}
+
+#ronance {
+width: 100%;
+}
+
+#bernieduke {
+ display: block;
+ width: 50%;
+ margin: auto;
+ border-radius: 50%;
+}
+
+i {display:none;}
+
+#mweor_tabs ~ div, .space_below {
+ clear: both;
+}
+
+.theader {
+ background-color: #A30262 !important;
+}
+
+.button {
+  background: linear-gradient(#EF7627, #fff, #B55690);
+  border-color: #A30262;
+  color: #fff;
+  text-shadow: -1px 0 #A30262, 0 1px #A30262, 1px 0 #A30262, 0 -1px #A30262;
+  padding: 2px 10px;
+}
+
+.button:hover {
+  color: #B55690;
+  border-color: inherit;
+}
+
+.ui-tooltip {
+  background-color: #fff !important;
+}
+
+.ui-widget-header {
+ background: linear-gradient(#EF7627, #fff, #B55690);
+}
+
+.ui-state-default a {
+ color: #fff !important;
+ font-weight: bold;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+ background: rgba(255, 154, 86, .5);
+ border-color: #D52D00;
+ text-shadow: -1px 0 #A30262, 0 1px #A30262, 1px 0 #A30262, 0 -1px #A30262;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover {
+ background: #D52D00;
+}
+
+.ui-state-active a {
+ color: #A30262!important;
+ text-shadow: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+ background: #fff url('');
+}
+
+.page_number {
+ color: #fff !important;
+}
+
+.page_number + .ui-state-default {
+ background: linear-gradient(#EF7627, #fff, #B55690) !important;
+}
+
+#mweor_tabs {
+ width: 55%;
+ float: right;
+ margin-right: 20px;
+ border: none;
+}
+
+#footer {
+ position: initial;
+ width: initial;
+ color: #B55690;
+}
+
+#footer a {
+ color: #A30262;
+}
+
+.social_media img {
+ filter: brightness(70%);
+}
