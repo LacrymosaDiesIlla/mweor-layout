@@ -250,6 +250,11 @@ i {display:none;}
 		float: right;
 	}
 	
+	#ronance {
+		width: 100%;
+		
+	}
+	
 	#mweor_tabs ~ div, .space_below {
 		clear: both;
 	}
