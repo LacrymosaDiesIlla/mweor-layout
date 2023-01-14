@@ -29,6 +29,10 @@ div:has(> #reportplayer) {
 	background: none;
 }
 
+#bottombanner {
+	width: initial;	
+}
+
 div:has(> #eventtxt) {
  position: initial !important;
  width: 550px;
