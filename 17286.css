@@ -26,6 +26,7 @@ div:has(> #reportplayer) {
 	width: 100%;
 	position: initial;
 	padding: 0;
+	background: none;
 }
 
 div:has(> #eventtxt) {
