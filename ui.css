@@ -1,3 +1,11 @@
+div:has(> #eventtxt) {
+ position: initial !important;
+ width: 550px;
+ margin: auto;
+}
+img[src="/images/layout_green/event.png"] {
+ filter: hue-rotate(2000deg);
+}
 .button {
   background: linear-gradient(#EF7627, #fff, #B55690);
   border-color: #A30262;
