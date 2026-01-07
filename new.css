@@ -2,6 +2,6 @@ body {
 	background: initial !important;
 }
 
-#bodyi {
+#bodyi, #topbanneri {
 	display: none;
 }
