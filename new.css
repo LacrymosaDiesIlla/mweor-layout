@@ -8,6 +8,7 @@ body {
 
 #menu_holder {
 	background: transparent;
+	position: relative;
 }
 
 /* dropdown menu border */
