@@ -187,6 +187,25 @@ i {display:none;}
 	filter: brightness(70%);
 }
 
+.titlebar + div {
+	display: initial;
+}
+.mweorbox {
+	width: initial;
+}
+.mweorbox table {
+	width: initial;
+}
+body {
+	margin: 0;
+}
+#holder, #content {
+	display: contents;
+}
+.tab_paging {
+	width: initial;
+}
+
 @media only screen and (min-width: 768px) {
 	
 	#customnav, #customheader h1, #customheader figure {
