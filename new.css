@@ -5,3 +5,25 @@ body {
 #bodyi, #topbanneri {
 	display: none;
 }
+
+#menu_holder div.menu_dropdown {
+	background: #D52D00;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+#menu_holder div.menu_dropdown div.menu_dropdown_inner {
+	background: #FF9A56;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+#menu_holder {
+	background: transparent;
+	position: absolute;
+	left: 650px;
+	top: 7px;
+}
+#menu_holder div.menu_dropdown div.menu_subtitle {
+	color: #EF7627 !important;
+}
